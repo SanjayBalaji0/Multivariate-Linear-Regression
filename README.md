@@ -26,7 +26,7 @@ Print the parameters.
 import pandas as pd
 from sklearn import linear_model
 
-df = pd.read_csv("Multivalate Linear Regression.csv")
+df = pd.read_csv("cars (1).csv")
 X=df[['Weight', 'Volume']]
 Y=df['CO2']
 regr=linear_model.LinearRegression()
